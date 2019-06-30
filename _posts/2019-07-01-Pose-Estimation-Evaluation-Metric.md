@@ -3,7 +3,7 @@ title: "About Pose Estimation Evaluation"
 date: 2019-07-01 03:28:00 -0400
 categories: PoseEstimation Evaluation
 ---
-첫번째 포스팅은 제가 연구중인 Pose Estimation Evaluation Metric에 대해 소개하겠습니다.
+첫번째 포스팅은 제가 연구중인 Pose Estimation 분야의 Evaluation Metric에 대해 소개하겠습니다.
 
 'PCK (Percentage of Correct Keypoints)'
 We define a candidate keypoint to be correct if it falls within α · max(h, w) pixels of the ground-truth keypoint, where h and w are the height and width of the bounding box respectively, and α controls the relative threshold for considering correctness. (usually use torso)
